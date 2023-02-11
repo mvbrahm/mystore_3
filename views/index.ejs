@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+  <%- include('./partials/head') -%>
+</head>
+
+<body>
+  <header>
+    <%- include('./partials/header') -%>
+  </header>
+  <p class="text-center">Welcome to ProductRUs</p>
+  <footer>
+    <%- include('./partials/footer') -%>
+  </footer>
+</body>
+
 </html>
